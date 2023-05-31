@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body class="bg-[#bce6a7]">
+    <nav class="flex border-b-2">
+      <div class="flex">
+        <div class="text-yellow-800 ml-10 w-36 h- text-center p-3">
+          <img src="img/logo.png" alt="" />
+        </div>
+        <div
+          class="text-black-800 font-bold pr-3 mr-48 p-3 w-98 m-8 text-6xl text-center"
+        >
+          North Star Academy
+        </div>
+      </div>
+      <div class="flex justify-end">
+        <div
+          class="text-black-800 font-semibold text-2xl pr-3 text-center pt-5 pb-5 w-32 ml-10 mt-10 mb-10 mr-4 hover:font-bold"
+        >
+        <a href="#" class="nav">Home</a>
+        </div>
+        <div
+          class="text-black-800 font-semibold text-2xl pr-3 text-center pt-5 pb-5 w-32 mt-10 mb-10 mr-4 ml-4 p-3 hover:font-bold"
+        >
+        <a href="#Courses" class="nav">Courses</a>
+        </div>
+        <div
+          class="text-black-800 font-semibold text-2xl pr-3 text-center pt-5 pb-5 w-32 mt-10 mb-10 mr-4 ml-4 p-3 hover:font-bold"
+        >
+        <a href="#Values" class="nav">Values</a>
+        </div>
+        <div
+          class="text-black-800 font-semibold text-2xl pr-3 text-center pt-5 pb-5 w-42 mt-10 mb-10 mr-4 ml-4 p-3 hover:font-bold"
+        >
+        <a href="#Contact" class="nav">Contact Us</a>
+        </div>
+      </div>
+    </nav>
+    <!--Background img with location on top-->
+    <div
+      class="grid grid-rows-3 gap-16  opacity-100 bg-no-repeat bg-cover
+
+      " 
+      style="opacity:90  ; background-image: url(img/institute.jpg);"
+       >
+      <span class="text-center font-bold text-5xl text-black-800 mt-10 block snap-x snap-center"
+        >Welcome to North Star Academy</span
+      >
+      <button
+        class="flex bg-white font-semibold p-4 text-center border-2 border-black	 w-56 mb-8 text-xl ml-48 hover:bg-[#bce6a7] hover:text-white hover:font-bold hover:border-[#bce6a7] "
+      >
+        Find a Course
+      </button>
+      <button class="flex bg-white font-semibold p-4 text-center border-2 border-black	 w-56 mb-8 text-xl ml-48 hover:bg-[#bce6a7] hover:text-white hover:font-bold hover:border-[#bce6a7]  ">
+        Apply Now
+      </button>
+
+      
+    </div>
+    <h2 class="text-6xl m-6 font-semibold text-center italic">
+      I'M Looking For
+    </h2>
+    <div class="flex grid-cols-2">
+      <input
+        type="text"
+        placeholder="Search for Programmes, Researches and Courses"
+        class="border-4 w-1/2 h-12 ml-56 text-2xl"
+      />
+      <div>
+        <button
+          class="border-4 w-48 h-12 font-bold  ml-10 text-2xl bg-white hover:drop-shadow-2xl"
+        >
+          Apply Now
+        </button>
+      </div>
+    </div>
+    <h2 id="Courses" class="text-6xl m-6 font-semibold text-center italic ">Our Courses</h2>
+    <h3 class="text-5xl m-6 font-semibold ml-32 italic">Programming</h3>
+
+<!-- card elements 1 -->
+<div class="flex grid-cols-3">
+<div class="flex w-96 grid-rows-3 bg-white mt-8 h-80  ml-48 mr-0 rounded-xl shadow-xl hover:drop-shadow-2xl">
+  <div>
+    <img src="img/python1.png" alt="python" class="h-16 w-86 ml-32 mr-40 mt-6">
+    <h4 class="inline-block 90 ml-36 mb-4 mt-4 text-3xl font-semibold">Python</h4>
+    <p class="ml-4 mr-4 text-zinc-400 text-justify text-lg mb-4">computer programming language often used to build websites and software, automate tasks, and conduct data analysis. </p>
+    <button class="flex bg-white font-bold p-3 ml-56 rounded-3xl text-center  mb-20 border-2 text-xl border-[#bce6a7]	hover:bg-slate-200 hover:drop-shadow-2xl hover:border-black ">View Course</button>
+  </div>
+</div>
+<div class="flex w-96 grid-rows-3 bg-white mt-8 h-80  ml-32 mr-0 rounded-xl shadow-xl hover:drop-shadow-2xl">
+  <div>
+    <img src="img/rect.png" alt="React" class="h-16 w-86 ml-40 mr-40 mt-6">
+    <h4 class="inline-block 90 ml-40 mb-4 mt-4 text-3xl font-semibold">React</h4>
+    <p class="ml-4 mr-4 text-zinc-400 text-justify text-lg mb-4">React is a JavaScript-based UI development library. Facebook and an open-source developer community run it.  </p>
+    <button class="flex bg-white font-bold p-3 ml-56 rounded-3xl text-center  mb-20 border-2 text-xl border-[#bce6a7]	hover:bg-slate-200	hover:drop-shadow-2xl hover:border-black ">View Course</button>
+  </div>
+</div>
+<div class="flex w-96 grid-rows-3 bg-white mt-8 h-80  ml-32 mr-0 rounded-xl shadow-xl hover:drop-shadow-2xl">
+  <div>
+    <img src="img/js.png" alt="JavaScript" class="h-16 w-86 ml-40 mr-40 mt-6">
+    <h4 class="inline-block 90 ml-32 mb-4 mt-4 text-3xl font-semibold">JavaScript</h4>
+    <p class="ml-4 mr-4 text-zinc-400 text-justify text-lg mb-4">JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While </p>
+    <button class="flex bg-white font-bold p-3 ml-56 rounded-3xl text-center  mb-20 border-2 text-xl border-[#bce6a7]	hover:bg-slate-200	hover:drop-shadow-2xl hover:border-black ">View Course</button>
+  </div>
+</div>
+</div>
+
+<h3 class="text-5xl mt-10 m-6 font-semibold ml-32 italic">Advance Level</h3>
+
+<!-- card elements 2 -->
+<div class="flex grid-cols-3">
+  <div class="flex w-96 grid-rows-3 bg-white mt-8 h-80  ml-48 mr-0 rounded-xl shadow-xl hover:drop-shadow-2xl">
+    <div>
+      <img src="img/ict.png" alt="python" class="h-16 w-86 ml-36 mt-6">
+      <h4 class="inline-block 90 ml-40 mb-4 mt-4 text-3xl font-semibold">I C T</h4>
+      <p class="ml-4 mr-4 text-zinc-400 text-justify text-lg mb-4">computer programming language often used to build websites and software, automate tasks, and conduct data analysis. </p>
+      <button class="flex bg-white font-bold p-3 ml-56 rounded-3xl text-center  mb-20 border-2 text-xl border-[#bce6a7]	hover:bg-slate-200 hover:drop-shadow-2xl hover:border-black ">View Course</button>
+    </div>
+  </div>
+  <div class="flex w-96 grid-rows-3 bg-white mt-8 h-80  ml-32 mr-0 rounded-xl shadow-xl hover:drop-shadow-2xl">
+    <div>
+      <img src="img/business1.png" alt="python" class="h-16 w-86 ml-40 mt-6">
+      <h4 class="inline-block 90 ml-20 mb-4 mt-4 text-3xl font-semibold">Business Studies</h4>
+      <p class="ml-4 mr-4 text-zinc-400 text-justify text-lg mb-4">Business studies, often simply called business, is a field of study that deals with the principles of business, management, </p>
+      <button class="flex bg-white font-bold p-3 ml-56 rounded-3xl text-center  mb-20 border-2 text-xl border-[#bce6a7]	hover:bg-slate-200 hover:drop-shadow-2xl hover:border-black ">View Course</button>
+    </div>
+  </div>
+  <div class="flex w-96 grid-rows-3 bg-white mt-8 h-80  ml-32 mr-0 rounded-xl shadow-xl hover:drop-shadow-2xl">
+    <div>
+      <img src="img/geograpy1.jpg" alt="python" class="h-16 w-86 ml-40 mt-6">
+      <h4 class="inline-block 90 ml-28 mb-4 mt-4 text-3xl font-semibold">Geography</h4>
+      <p class="ml-4 mr-4 text-zinc-400 text-justify text-lg mb-4">Geography is the study of places and the relationships between people and their environments. Geographers explore both </p>
+      <button class="flex bg-white font-bold p-3 ml-56 rounded-3xl text-center  mb-20 border-2 text-xl border-[#bce6a7]	hover:bg-slate-200 hover:drop-shadow-2xl hover:border-black ">View Course</button>
+    </div>
+  </div>
+  </div>
+
+  <h2 id="Values" class="text-6xl m-6 mt-10 font-semibold text-center italic">Values</h2>
+    
+ <!-- card elements 2 -->
+<div class="flex grid-cols-3">
+  <div class="flex w-96 grid-rows-3 bg-white mt-8 h-72 ml-48 mr-0 rounded-xl shadow-xl hover:drop-shadow-2xl">
+    <div>
+      <img src="img/quailty1.jpg" alt="Quality" class="h-16 w-86 ml-40 mt-6">
+      <h4 class="inline-block 90 ml-36 mb-4 mt-4 text-3xl font-semibold">Quality</h4>
+      <p class="ml-4 mr-4 mt-4 text-zinc-400 text-justify text-lg mb-4">Quality refers to how good something is compared to other similar things. In other words, its degree of excellence. When  </p>
+    </div>
+  </div>
+  <div class="flex w-96 grid-rows-3 bg-white mt-8 h-72  ml-32 mr-0 rounded-xl shadow-xl hover:drop-shadow-2xl">
+    <div>
+      <img src="img/honesty.png" alt="Honesty" class="h-16 w-86 ml-40 mt-6">
+      <h4 class="inline-block 90 ml-32 mb-4 mt-4 text-3xl font-semibold">Honesty</h4>
+      <p class="ml-4 mr-4 text-zinc-400 mt-4 text-justify text-lg mb-4">Quality refers to how good something is compared to other similar things. In other words, its degree of excellence. When </p>
+    </div>
+  </div>
+  <div class="flex w-96 grid-rows-3 bg-white mt-8 h-72  ml-32 mr-0 rounded-xl shadow-xl hover:drop-shadow-2xl ">
+    <div>
+      <img src="img/intergrity.png" alt="Intergrity" class="h-16 w-86 ml-40 mt-6">
+      <h4 class="inline-block 90 ml-32 mb-4 mt-4 text-3xl font-semibold">Intergrity</h4>
+      <p class="ml-4 mr-4 text-zinc-400 mt-4 text-justify text-lg mb-4">Quality refers to how good something is compared to other similar things. In other words, its degree of excellence. When  </p>
+    </div>
+  </div>
+  </div>
+   
+  
+
+<!-- last -->
+  <h2 id="Contact" class="text-6xl m-6 mt-10 font-semibold text-center italic ">
+    Contact Us
+  </h2>
+    <h3 class="text-5xl  m-6 font-semibold ml-32 italic ">
+      Address
+    </h3>
+    <div class="flex ml-32 mt-10" >
+      <p class="text-3xl"> 199, Dodangolla Akurana</p>
+    </div>
+    <div class="flex ml-32 mt-10" >
+      <img src="img/call3.png" alt="Call me" class="w-12 h-12 mr-4 bg-green-200">
+      <a class="text-3xl" href="tel:+765456997">0765456997</a>
+    </div>
+    <div class="flex ml-32 mt-10" >
+      <img src="img/mail1.png" alt="Mail me" class="w-12 h-10 mr-4 bg-green-200">
+      <a class="text-3xl" href="mailto:northstaracademylk@gmail.com">northstaracademylk@gmail.com</a>
+    </div>
+  <div class="justify-items-center snap-x snap-center">
+  <h2 class="text-6xl  m-6 font-semibold text-center italic  ">
+    Location
+  </h2>
+  
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15830.141994106692!2d80.6364938!3d7.2935688!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae367d5674033d1%3A0x3e2a47089768388!2ssequins!5e0!3m2!1sen!2slk!4v1680254222606!5m2!1sen!2slk" width="2000" height="1200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mb-20 mt-20"></iframe>
+  </div>
+  
+  <div class="ml-32 text-3xl">
+    <p>
+      Our mission is to provide a free, world-class education to anyone, anywhere. 
+      <br>
+     <br> FIND US
+     <br> northstar@gmail.com
+     <br>Akurana - No. 199, Dodangolla Akurana.
+     <br>Tel - 0765456997</p>
+     <br>
+     <p class="ml-32 text-3xl mb-10">© 2023 The North Star Academy . All Rights Reserved. Design by Amru.itdomain . Terms & Conditions</p>
+     <a href="#" class="border-4 w-48 h-12 font-bold  ml-10 text-2xl bg-white mb-10 ">Home</a>
+  </div>    
+  </div>
+  </body>
+  </body>
+</html>
